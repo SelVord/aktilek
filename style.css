@@ -1,0 +1,138 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: url("https://blog.prezi.com/wp-content/uploads/2019/04/03-deep-blue-1024x576.jpg") no-repeat;
+    background-size: cover;
+}
+
+.main_block {
+    height: 600px;
+    width: 1200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.first_cont {
+    height: 100%;
+    width: 70%;
+    background: white;
+    display: flex;
+    border-radius: 50px;
+}
+
+.my_photo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my_photo img {
+    width: 70%;
+    border-radius: 100%;
+}
+
+.main_data {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.main_data h1 {
+    font-size: 50px;
+}
+
+.main_data h2 {
+    font-size: 40px;
+}
+
+.second_cont {
+    height: 100%;
+    width: 25%;
+    background: white;
+    display: flex;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.contacts {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow {
+    width: 100px;
+    display: block;
+    margin: 100px auto;
+}
+
+.personal_data {
+    width: 100%;
+    height: 800px;
+    background: rgb(184,234,255);
+    background: linear-gradient(0deg, rgba(184,234,255,1) 0%, rgba(100,104,156,1) 100%);
+    display: flex;
+    justify-content: center
+}
+
+.main_data_cont {
+    width: 80%;
+    height: auto;
+}
+
+.devider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-left: 50px;
+    border-radius: 20px;
+    width: 60%;
+    height: 150px;
+    background: white;
+    margin-top: 80px;
+}
+
+.devider h2 {
+    font-size: 25px;
+}
+
+.devider p {
+    font-size: 20px;
+}
+
+.right_block {
+    margin-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
